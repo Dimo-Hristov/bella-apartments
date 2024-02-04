@@ -1,4 +1,11 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('/assets/fonts/Lato-Regular.ttf');
+}
+
 body{
     color: rgba(1, 43, 89, 1);
     font-size: 16px;
+    font-family: 'Lato';
+    font-weight: 400;
 }
