@@ -1,0 +1,25 @@
+.images{
+    padding: 64px 13px 64px 12px;
+
+}
+
+.images ul{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images img {
+    width: 280px;
+    height: 207px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+}
+
+.images h2{
+margin-bottom: 36px;
+font-weight: 700;
+font-size: 36px;
+line-height: 43.2px;
+}
