@@ -23,3 +23,19 @@ font-weight: 700;
 font-size: 36px;
 line-height: 43.2px;
 }
+
+.prices{
+    padding: 36px 12px 64px 12px;
+}
+
+.prices p {
+    padding-top: 8px;
+    line-height: 24px;
+    max-width: 780px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+.prices .bold {
+    font-weight: 700;
+}
