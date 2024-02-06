@@ -24,7 +24,7 @@ header ul li {
   padding: 12px;
   line-height: 24px;
   border-radius: 99px;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.1s;
 }
 
 header ul li:last-child {
