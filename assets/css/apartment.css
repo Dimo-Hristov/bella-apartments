@@ -1,6 +1,32 @@
 .apartment{
     background-color: rgba(151, 184, 195, 1);
+    position: relative;
+   z-index: 1;
+   overflow: hidden;
 }
+
+.apartment::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10%;
+    width: 70%;
+    height: 100%;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), transparent);
+    z-index: -1; 
+}
+
+.apartment::after {
+    content: "";
+    position: absolute;
+    bottom: -30%;
+    right: -10%;
+    width: 70%;
+    height: 130%;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), transparent);
+    z-index: -1; 
+}
+
 
 .apartment h2{
     padding-top: 56px;
@@ -12,4 +38,27 @@
 .apartment p{
     max-width: 780px;
     margin: 0 auto;
+    line-height: 24px;
+}
+
+.apartment ul {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.apartment li{
+    width: 280px;
+    height: 287px;
+    line-height: 24px;
+}
+
+.apartment li img{
+    border-radius: 8px;
+}
+
+.apartment li p{
+    margin-top: 8px;
 }
