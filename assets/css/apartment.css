@@ -13,3 +13,19 @@
     max-width: 780px;
     margin: 0 auto;
 }
+
+.apartment ul {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.apartment li{
+    width: 280px;
+    height: 287px;
+}
+
+.apartment li img{
+    border-radius: 8px;
+}
