@@ -1,0 +1,15 @@
+.apartment{
+    background-color: rgba(151, 184, 195, 1);
+}
+
+.apartment h2{
+    padding-top: 56px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.2px;
+}
+
+.apartment p{
+    max-width: 780px;
+    margin: 0 auto;
+}
