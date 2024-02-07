@@ -41,7 +41,7 @@ document.querySelector('.hamburger-menu').addEventListener('click', function (ev
     event.stopPropagation();
 });
 
-if (window.innerWidth > 850) {
+if (window.innerWidth > 826) {
 
     window.addEventListener("scroll", function () {
         const nav = document.querySelector("nav");
