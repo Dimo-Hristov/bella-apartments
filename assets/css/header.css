@@ -186,6 +186,7 @@ header h1 {
 }
 
 header p {
+  padding: 0 16px;
   font-size: 24px;
   line-height: 33.6px;
   max-width: 980px;
@@ -218,17 +219,13 @@ header p {
   }
 }
 
-@media (max-width: 1280px) {
-  header {
-    height: 947px; /* Adjust height for smaller screens */
-  }
-}
 
 @media (max-width: 1280px) {
   header {
     height: 947px; /* Adjust height for smaller screens */
   }
 }
+
 
 @media (max-width: 1025px) {
   .links.second {
@@ -241,7 +238,94 @@ header p {
   }
 }
 
+
+
+@media (max-width: 826px) {
+  nav ul {
+    width: 0; 
+  }
+
+  header h1{
+    padding-top: 80px;
+  }
+
+  .hamburger-menu {
+    display: block; 
+  }
+
+
+  .links.nav,
+  .language {
+    display: none; 
+  }
+
+
+  nav {
+    justify-content: flex-end;
+    padding: 0;
+    z-index: 1000; 
+  }
+
+   nav ul{
+    background-color: rgba(151, 184, 195, 1);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    transition: width 0.3s ease-in-out; 
+  }
+
+  nav ul.open{
+    width: 400px;
+    transition: width 0.3s ease-in-out; 
+
+  }
+
+  nav ul.open li{
+    margin-left: 16px;
+  }
+
+
+
+  nav ul li {
+    display: block;
+    width: 60%;
+    text-align: left;
+  }
+
+}
+
 @media (max-width: 650px) {
+  header{
+    height: 430px;
+  }
+
+  nav ul li:last-child {
+    width: 65%;
+  }
+
+  nav ul.open{
+    width: 250px;
+    transition: width 0.3s ease-in-out; 
+  }
+
+  .reservation-wrapper{
+    bottom: 17px;
+  }
+
+  header h1{
+    padding-top: 32px;
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+
+  header p{
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+
   .links.second {
     gap: 4px;
   }
@@ -268,49 +352,9 @@ header p {
   }
 }
 
-@media (max-width: 826px) {
-  nav ul {
-    width: 0; 
-  }
-
-  .hamburger-menu {
-    display: block; 
-  }
-
-
-  .links,
-  .language {
-    display: none; 
-  }
-
-
-  nav {
-    justify-content: flex-end;
-    padding: 0;
-    z-index: 1000; /* Move z-index here */
-  }
-
-   nav ul{
-    background-color: rgba(151, 184, 195, 1);
-    height: 100vh;
-    width: 40%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 0;
-    transition: width 0.3s ease-in-out; /* Add transition for width */
-  }
-
-  nav ul.open{
-    width: 400px;
-    transition: width 0.3s ease-in-out; /* Add transition for width */
-  }
-
-  nav ul li {
-    display: block;
-  }
-
-  nav ul li{
-    width: 60%;
+@media (max-width: 480px) {
+  header p{
+    padding-top: 32pxpx;
   }
 }
+
