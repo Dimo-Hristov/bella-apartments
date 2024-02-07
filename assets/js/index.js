@@ -49,16 +49,16 @@ if (window.innerWidth > 850) {
 
         if (window.scrollY > 1) {
             // Add red background color when scrolling down
-            nav.style.display = "flex";
-            navBackground.style.display = "block";
+            nav.style.opacity = "1";
+            navBackground.style.opacity = "1";
 
             setTimeout(function () {
-                nav.style.display = "none";
-                navBackground.style.display = "none";
+                nav.style.opacity = "0";
+                navBackground.style.opacity = "0";
                 if (window.scrollY < 1) {
-                    nav.style.display = "flex";
+                    nav.style.opacity = "1";
                 }
-            }, 2000);
+            }, 2500);
         }
     });
 
@@ -69,7 +69,7 @@ if (window.innerWidth > 850) {
         if (window.scrollY < 2) {
 
 
-            navBackground.style.display = "none";
+            navBackground.style.opacity = "0";
 
 
         }
