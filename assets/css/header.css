@@ -323,7 +323,7 @@ header p {
   }
 
   header p{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 19.6px;
   }
 
@@ -336,7 +336,7 @@ header p {
     line-height: 19.2px;
   }
   .links.second a {
-    font-size: 14px;
+    font-size: 16px;
   }
   .links.second img:first-child {
     width: 12px;
@@ -344,7 +344,7 @@ header p {
   }
 
   .links.second img:nth-child(2) {
-    width: 14px;
+    width: 16px;
     height: 10px;
   }
 
