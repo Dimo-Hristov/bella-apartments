@@ -10,26 +10,26 @@
     padding: 40px 12px 40px 12px;
 }
 
-.apartment::before {
-    content: "";
+.gradient1{
     position: absolute;
-    top: 0;
-    left: -10%;
-    width: 70%;
+    top: 0px;
+    left: 0px;
+    width: 50%;
     height: 100%;
-    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), transparent);
-    z-index: -1; 
+    background: radial-gradient(rgba(255, 255, 255, 0.5), rgba(151, 184, 195, 1));
+    z-index: -1;
 }
 
-.apartment::after {
-    content: "";
+.gradient2{
+    padding-top: 100px;
     position: absolute;
-    bottom: -30%;
-    right: -10%;
-    width: 70%;
-    height: 130%;
-    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), transparent);
-    z-index: -1; 
+    top: 0px;
+    right: 0px;
+    width: 50%;
+    height: 110%;
+    background: radial-gradient(rgba(255, 255, 255, 0.5), rgba(151, 184, 195, 1));
+    z-index: -1;
+
 }
 
 
@@ -68,4 +68,18 @@
 
 .apartment li p, .complex li p{
     margin-top: 8px;
+}
+
+@media(max-width: 650px){
+    .apartment h2 ,.complex h2{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .apartment, .complex{
+        padding-top: 16px;
+    }
+
+    .complex{
+        padding-bottom: 16px;
+    }
 }
