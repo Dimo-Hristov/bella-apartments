@@ -3,6 +3,10 @@
     src: url('/assets/fonts/Lato-Regular.ttf');
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     color: rgba(1, 43, 89, 1);
     font-family: 'Lato';
