@@ -7,6 +7,28 @@ header {
   position: relative;
 }
 
+.text1 {
+  animation: fallFromTop 3s forwards; /* Use forwards to retain the final state of the animation */
+  opacity: 0; /* Start with opacity 0 to make it fade in while falling */
+}
+
+.text2 {
+  animation: fallFromTop 3s forwards; /* Use forwards to retain the final state of the animation */
+  animation-delay: 0.5s; /* Delay the animation for text2 */
+  opacity: 0; /* Start with opacity 0 to make it fade in while falling */
+}
+
+@keyframes fallFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .nav-background{
   background-color: rgba(155, 201, 215, 1);
   padding: 16px 12px 16px 12px;
