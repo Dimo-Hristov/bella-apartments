@@ -3,11 +3,11 @@
     position: relative;
    z-index: 1;
    overflow: hidden;
-   padding: 56px 12px 56px 12px;
+   padding: 80px 12px 80px 12px;
 }
 
 .complex {
-    padding: 40px 12px 40px 12px;
+    padding: 80px 12px 40px 12px;
 }
 
 .gradient1{
@@ -34,7 +34,7 @@
 
 
 .apartment h2 ,.complex h2{
-    font-weight: 700;
+    font-weight: 900;
     font-size: 36px;
     line-height: 43.2px;
     margin-bottom: 8px;
@@ -47,7 +47,7 @@
 }
 
 .apartment ul , .complex ul{
-    margin-top: 40px;
+    margin-top: 36px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;

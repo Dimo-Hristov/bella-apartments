@@ -151,6 +151,7 @@ ul li {
 
 nav ul li:nth-child(6) {
   background-color: rgba(252, 193, 26, 1);
+  font-weight: 900;
 }
 
 nav ul .socials{
@@ -204,7 +205,9 @@ nav ul .socials{
 
 header h1 {
   padding-top: 115px;
-  font-weight: 800;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 72px;
   line-height: 86.4px;
 }
 
@@ -363,7 +366,7 @@ header p {
   }
 
   header p{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 19.6px;
   }
 

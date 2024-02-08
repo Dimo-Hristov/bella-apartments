@@ -59,7 +59,7 @@
   height: 120%;
   background: radial-gradient(
     circle at right,
-    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.8),
     transparent
   );
   z-index: -1;
@@ -71,7 +71,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 40px;
 }
 
 .footer a {
