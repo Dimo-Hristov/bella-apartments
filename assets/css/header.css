@@ -131,6 +131,9 @@ nav ul li:nth-child(6) {
   background-color: rgba(252, 193, 26, 1);
 }
 
+nav ul .socials{
+  margin-left: 36px;
+}
 .links {
   display: flex;
   align-items: center;
@@ -239,6 +242,10 @@ header p {
 
 
 @media (max-width: 826px) {
+  nav ul .socials{
+    margin-left: 0;
+  }
+
   nav ul {
     width: 0; 
   }
