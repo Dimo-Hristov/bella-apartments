@@ -20,10 +20,14 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+
+
+
     // Prevent clicks on hamburger menu from closing the menu when clicking inside it
     document.querySelector('.hamburger-menu').addEventListener('click', function (event) {
         event.stopPropagation();
     });
+
 });
 
 document.addEventListener('click', function (event) {
@@ -82,3 +86,9 @@ if (window.innerWidth > 826) {
         }
     });
 }
+
+
+
+
+
+
