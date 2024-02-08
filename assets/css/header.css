@@ -8,13 +8,13 @@ header {
 }
 
 .text1 {
-  animation: fallFromTop 1.5s forwards; /* Use forwards to retain the final state of the animation */
+  animation: fallFromTop 1.6s forwards; /* Use forwards to retain the final state of the animation */
   opacity: 0; /* Start with opacity 0 to make it fade in while falling */
 }
 
 .text2 {
-  animation: fallFromTop 1.5s forwards; /* Use forwards to retain the final state of the animation */
-  animation-delay: 0.3s; /* Delay the animation for text2 */
+  animation: fallFromTop 1.6s forwards; /* Use forwards to retain the final state of the animation */
+  animation-delay: 0.1s; /* Delay the animation for text2 */
   opacity: 0; /* Start with opacity 0 to make it fade in while falling */
 }
 
