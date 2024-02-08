@@ -63,13 +63,7 @@ if (window.innerWidth > 826) {
             nav.style.opacity = "1";
             navBackground.style.opacity = "1";
 
-            setTimeout(function () {
-                nav.style.opacity = "0";
-                navBackground.style.opacity = "0";
-                if (window.scrollY < 1) {
-                    nav.style.opacity = "1";
-                }
-            }, 2500);
+
         }
     });
 
