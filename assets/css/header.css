@@ -95,11 +95,19 @@ nav {
   padding: 16px 0 16px 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   position: fixed;
   top: 0;
   right: 0;
   z-index: 2000;
   transition: opacity 0.3s ease;
+}
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -119,16 +127,8 @@ ul li {
   transition: ease-in-out 0.1s;
 }
 
-nav ul li:last-child {
+nav ul li:nth-child(6) {
   background-color: rgba(252, 193, 26, 1);
-}
-
-nav ul li:hover {
-  background-color: rgba(193, 143, 1, 1);
-}
-
-nav ul li:active {
-  background-color: rgba(255, 224, 136, 1);
 }
 
 .links {
@@ -176,9 +176,6 @@ nav ul li:active {
   border-radius: 100%;
 }
 
-.language {
-  margin-left: 48px;
-}
 
 header h1 {
   padding-top: 115px;
@@ -245,6 +242,13 @@ header p {
   nav ul {
     width: 0; 
   }
+  .socials{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 
   header h1{
     padding-top: 80px;
@@ -260,12 +264,6 @@ header p {
 
   .hamburger-menu {
     display: block; 
-  }
-
-
-  .links.nav,
-  .language {
-    display: none; 
   }
 
 
@@ -286,6 +284,10 @@ header p {
     transition: width 0.3s ease-in-out; 
   }
 
+  nav ul {
+    display: block;
+  }
+
   nav ul.open{
     width: 400px;
     transition: width 0.3s ease-in-out; 
@@ -295,6 +297,7 @@ header p {
   nav ul.open li{
     margin-left: 16px;
   }
+
 
 
 
