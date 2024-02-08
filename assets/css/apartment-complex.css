@@ -64,6 +64,7 @@
     border-radius: 8px;
     width: 280px;
     height: 207px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
 }
 
 .apartment li p, .complex li p{
