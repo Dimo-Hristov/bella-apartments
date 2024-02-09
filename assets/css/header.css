@@ -140,7 +140,7 @@ ul li,
   cursor: pointer;
 }
 
-header ul li {
+nav ul li {
   transition: transform 1s ease-in-out;
   display: inline-block;
   line-height: 24px;

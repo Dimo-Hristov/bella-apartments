@@ -27,6 +27,6 @@ nav li:hover{
    background-color: rgba(235, 176, 9, 1); 
 }
 
-nav li:active{
+nav li:active, .hamburger li:active{
     background-color: rgba(255, 224, 136, 1);
  }
