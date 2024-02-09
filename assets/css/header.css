@@ -146,11 +146,10 @@ nav ul li {
   line-height: 24px;
   border-radius: 99px;
   transition: ease-in-out 0.1s;
-}
-
-nav ul li {
   padding: 12px;
 }
+
+
 
 nav ul li:nth-child(6) {
   background-color: rgba(252, 193, 26, 1);
@@ -355,6 +354,7 @@ header p {
 
   nav ul.open li:nth-child(6){
     width: 160px;
+
   }
 
 
