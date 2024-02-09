@@ -56,8 +56,8 @@
   justify-content: center;
 }
 
-.apartment ul{
-    flex-direction: column;
+.apartment ul, .complex ul{
+    flex-direction: row;
     align-items: center;
 }
 
@@ -118,6 +118,11 @@
   .complex .desctop-view {
     display: none;
   }
+
+  .apartment ul, .complex ul{
+    flex-direction: column;
+    align-items: center;
+}
 }
 
 @media (max-width: 650px) {
