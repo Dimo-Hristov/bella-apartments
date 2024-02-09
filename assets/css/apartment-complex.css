@@ -77,7 +77,11 @@
         line-height: 24px;
     }
     .apartment, .complex{
-        padding-top: 16px;
+        padding-top: 48px;
+    }
+
+    .apartment{
+        padding-bottom: 24px;
     }
 
     .complex{

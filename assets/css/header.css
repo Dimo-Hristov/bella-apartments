@@ -68,7 +68,6 @@ header {
   display: none;
   cursor: pointer;
   z-index: 2500;
-
 }
 
 .wrapper{
@@ -167,11 +166,11 @@ nav ul .socials{
 }
 
 .socials li:nth-child(2){
-  margin-left: 12px;
+  margin-left: 8px;
 }
 
 .socials li:nth-child(3){
-  margin-left: 48px;
+  margin-left: 28px;
 }
 
 .links {
@@ -184,7 +183,7 @@ nav ul .socials{
 }
 
 .links.second {
-  margin-top: 16px;
+  margin-top: 8px;
   gap: 0;
   margin-left: 0;
 }
@@ -284,8 +283,13 @@ header p {
 
 
 @media (max-width: 1203px) {
+  .images{
+    display: none;
+  }
+
   nav ul .socials{
-    margin-left: 0;
+    margin-left: 12px;
+    width: 160px;
   }
 
   nav ul {
@@ -338,6 +342,7 @@ header p {
   }
 
   nav ul.open{
+    padding-top: 16px;
     width: 400px;
     transition: width 0.3s ease-in-out; 
 
@@ -347,7 +352,9 @@ header p {
     margin-left: 16px;
   }
 
-
+  nav ul.open li:nth-child(6){
+    width: 160px;
+  }
 
 
   nav ul li {
@@ -409,7 +416,7 @@ header p {
   }
 
   .reservation {
-    padding: 8px 78px 8px 60px;
+    padding: 8px 60px 8px 60px;
   }
 }
 
