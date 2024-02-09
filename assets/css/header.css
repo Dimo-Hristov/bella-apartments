@@ -130,6 +130,7 @@ nav ul{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  gap: 4px;
 }
 
 
@@ -155,8 +156,21 @@ nav ul li:nth-child(6) {
 }
 
 nav ul .socials{
-  margin-left: 36px;
+  margin-left: 48px;
 }
+
+.socials li{
+  padding: 4px 0;
+}
+
+.socials li:nth-child(2){
+  margin-left: 12px;
+}
+
+.socials li:nth-child(3){
+  margin-left: 48px;
+}
+
 .links {
   display: flex;
   align-items: center;
