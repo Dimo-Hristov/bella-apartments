@@ -140,7 +140,7 @@ ul li,
   cursor: pointer;
 }
 
-ul li {
+header ul li {
   transition: transform 1s ease-in-out;
   display: inline-block;
   line-height: 24px;
@@ -163,6 +163,7 @@ nav ul .socials{
 
 .socials li{
   padding: 4px 0;
+  display: inline-block;
 }
 
 .socials li:nth-child(2){

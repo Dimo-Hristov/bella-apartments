@@ -1,90 +1,141 @@
-.apartment{
-    background-color: rgba(151, 184, 195, 1);
-    position: relative;
-   z-index: 1;
-   overflow: hidden;
-   padding: 80px 12px 80px 12px;
+.apartment {
+  background-color: rgba(151, 184, 195, 1);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  padding: 80px 12px 80px 12px;
 }
 
 .complex {
-    padding: 80px 12px 40px 12px;
+  padding: 80px 12px 40px 12px;
 }
 
-.gradient1{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 50%;
-    height: 100%;
-    background: radial-gradient(rgba(255, 255, 255, 0.5), rgba(151, 184, 195, 1));
-    z-index: -1;
+.gradient1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 50%;
+  height: 100%;
+  background: radial-gradient(rgba(255, 255, 255, 0.5), rgba(151, 184, 195, 1));
+  z-index: -1;
 }
 
-.gradient2{
-    padding-top: 100px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 50%;
-    height: 110%;
-    background: radial-gradient(rgba(255, 255, 255, 0.5), rgba(151, 184, 195, 1));
-    z-index: -1;
+.gradient2 {
+  padding-top: 100px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 50%;
+  height: 110%;
+  background: radial-gradient(rgba(255, 255, 255, 0.5), rgba(151, 184, 195, 1));
+  z-index: -1;
+}
 
+.apartment h2,
+.complex h2 {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43.2px;
+  margin-bottom: 8px;
+}
+
+.apartment p,
+.complex p {
+  max-width: 780px;
+  margin: 0 auto;
+  line-height: 24px;
+}
+
+.apartment ul,
+.complex .desctop-view ul {
+  margin-top: 36px;
+  display: flex;
+  flex-direction: row;
+
+  gap: 20px;
+  justify-content: center;
+}
+
+.apartment ul{
+    flex-direction: column;
+    align-items: center;
 }
 
 
-.apartment h2 ,.complex h2{
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 43.2px;
-    margin-bottom: 8px;
+
+
+.apartment li,
+.complex .desctop-view li {
+  width: 280px;
+  height: 287px;
+  line-height: 24px;
 }
 
-.apartment p,.complex p{
-    max-width: 780px;
-    margin: 0 auto;
+.apartment li img,
+.complex img {
+  border-radius: 8px;
+  width: 280px;
+  height: 207px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
+}
+
+.apartment li p,
+.complex li p {
+  margin-top: 8px;
+}
+
+.complex .mobile-view {
+  margin-top: 36px;
+}
+
+.complex .mobile-view img {
+  width: 336px;
+  height: 265px;
+  margin: 0 auto;
+}
+
+.complex .mobile-view li {
+  max-width: 300px;
+  text-align: left;
+  line-height: 24px;
+  padding-bottom: 4px;
+}
+
+.complex .mobile-view {
+  display: none;
+  padding-bottom: 12px;
+}
+
+.complex .mobile-view ul{
+    padding-left: 22px;
+}
+
+@media (max-width: 1025px) {
+  .complex .mobile-view {
+    display: block;
+  }
+
+  .complex .desctop-view {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .apartment h2,
+  .complex h2 {
+    font-size: 24px;
     line-height: 24px;
-}
+  }
+  .apartment,
+  .complex {
+    padding-top: 48px;
+  }
 
-.apartment ul , .complex ul{
-    margin-top: 36px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
+  .apartment {
+    padding-bottom: 24px;
+  }
 
-.apartment li, .complex li{
-    width: 280px;
-    height: 287px;
-    line-height: 24px;
-}
-
-.apartment li img, .complex img{
-    border-radius: 8px;
-    width: 280px;
-    height: 207px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 15px;
-}
-
-.apartment li p, .complex li p{
-    margin-top: 8px;
-}
-
-@media(max-width: 650px){
-    .apartment h2 ,.complex h2{
-        font-size: 24px;
-        line-height: 24px;
-    }
-    .apartment, .complex{
-        padding-top: 48px;
-    }
-
-    .apartment{
-        padding-bottom: 24px;
-    }
-
-    .complex{
-        padding-bottom: 16px;
-    }
+  .complex {
+    padding-bottom: 16px;
+  }
 }
