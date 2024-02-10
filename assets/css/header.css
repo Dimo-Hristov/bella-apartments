@@ -283,9 +283,7 @@ header p {
 
 
 @media (max-width: 1203px) {
-  .images{
-    display: none;
-  }
+
 
   nav ul .socials{
     margin-left: 12px;
