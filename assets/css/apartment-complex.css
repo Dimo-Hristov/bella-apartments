@@ -50,25 +50,23 @@
 .complex  ul {
   margin-top: 36px;
   display: flex;
-  flex-direction: row;
+
+  flex-wrap: wrap;
 
   gap: 20px;
   justify-content: center;
 }
 
 .apartment ul, .complex ul{
-    flex-direction: row;
     align-items: center;
 }
 
-
-
-
 .apartment li,
-.complex .photos li {
+.complex li {
   width: 280px;
   height: 287px;
   line-height: 24px;
+
 }
 
 .apartment li img,
@@ -90,7 +88,7 @@
 
 
   .apartment ul, .complex ul{
-    flex-direction: column;
+
     align-items: center;
 }
 }
