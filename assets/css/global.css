@@ -26,3 +26,67 @@ nav li:hover{
 nav li:active{
     background-color: rgba(255, 224, 136, 1) ;
  }
+
+ body,
+.wrap,
+#slider,
+.slide-content {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    overflow-x: hidden
+}
+.wrap{
+    position: relative
+}
+.slide{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+.slide-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.slide-content span{
+    color: #fff;
+    font-size: 5rem
+}
+.arrow{
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    border-style: solid;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px
+}
+#arrow-left{
+    border-width: 30px 40px 30px 0;
+    border-color: transparent rgba(1, 43, 89, 1) transparent rgba(1, 43, 89, 1);
+    left: 0;
+    margin-left: 30px;
+}
+#arrow-right{
+    border-width: 30px 0 30px 40px;
+    border-color: transparent rgba(1, 43, 89, 1) transparent rgba(1, 43, 89, 1);
+    right: 0;
+    margin-right: 30px;
+}
+
+@media(max-width: 1203px){
+    #arrow-left{
+        border-width: 15px 20px 15px 0;
+        margin-left: 10px;
+    }
+    #arrow-right{
+        border-width: 15px 0 15px 20px;
+
+        margin-right: 10px;
+    }
+}
