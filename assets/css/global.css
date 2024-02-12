@@ -54,7 +54,7 @@ nav li:active{
     text-align: center;
 }
 .slide-content span{
-    color: #fff;
+    color: #0d0d0d;
     font-size: 5rem
 }
 .arrow{
@@ -77,6 +77,15 @@ nav li:active{
     border-color: transparent rgba(1, 43, 89, 1) transparent rgba(1, 43, 89, 1);
     right: 0;
     margin-right: 30px;
+}
+
+@media(max-width: 1300px){
+    #arrow-left{
+        border-color: transparent #ffffff transparent #ffffff;
+    }
+    #arrow-right{
+        border-color: transparent #ffffff transparent #ffffff;
+    }
 }
 
 @media(max-width: 1203px){

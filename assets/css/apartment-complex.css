@@ -33,7 +33,7 @@
 
 .apartment h2,
 .complex h2 {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 36px;
   line-height: 43.2px;
   margin-bottom: 8px;
@@ -41,9 +41,14 @@
 
 .apartment p,
 .complex p {
-  max-width: 780px;
+  max-width: 850px;
   margin: 0 auto;
   line-height: 24px;
+}
+
+
+.apartment ul p{
+  text-align: center;
 }
 
 .apartment ul,
@@ -94,6 +99,10 @@
 }
 
 @media (max-width: 650px) {
+  .apartment p{
+    text-align: left;
+  }
+
   .apartment h2,
   .complex h2 {
     font-size: 24px;
