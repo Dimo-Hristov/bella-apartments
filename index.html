@@ -312,6 +312,14 @@
       </div>
     </footer>
     <script src="assets/js/index.js"></script>
-    <script type="module" src="./assets/js/chatBotScript.js"></script>
+    <script type="module">
+      import { initEmbeddedChat } from "https://unpkg.com/embeddedaichatux@latest/EmbeddedChat.js";
+
+      document.addEventListener("DOMContentLoaded", function () {
+        initEmbeddedChat(null, "fc87a55f-1942-4a44-9efa-d4fb5fcb53cc", {
+          serverUrl: "https://embedgpt.chat/",
+        });
+      });
+    </script>
   </body>
 </html>
